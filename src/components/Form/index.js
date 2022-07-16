@@ -14,16 +14,17 @@ export default function Form(){
             <View>
                 <Text>Altura</Text>
                 <TextInput 
-                placeholder = 'Ex. 1.75'
+                placeholder = 'Ex... 1.75'
                 keyboardType="numeric">
                 </TextInput>
 
                 <Text>Peso</Text>
                 <TextInput 
-                placeholder = 'Ex. 68'
-                keyboardType="numeric"></TextInput>
+                placeholder = 'Ex.. 68'
+                keyboardType="numeric">
+                </TextInput>
 
-                <Button title='Calcular'/>
+                <Button title='Calcular IMC'/>
             </View>
             <ResultImc messageResultImc = {messageImc} resultImc = {imc}/>
         </View>
